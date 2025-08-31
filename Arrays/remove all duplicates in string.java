@@ -17,7 +17,9 @@ class Solution {
         return sb.toString();
     }
 }
-
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+    
 class Solution {
     public String removeDuplicates(String s) {
         Stack<Character> stack = new Stack<>();
