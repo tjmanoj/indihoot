@@ -23,3 +23,6 @@ public class Problem266A {
         System.out.println(n - sb.length());
     }
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
