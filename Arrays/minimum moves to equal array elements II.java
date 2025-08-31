@@ -30,3 +30,6 @@ class Solution {
         return moves;
     }
 }
+
+// Time Complexity: O(n log n)
+// Space Complexity: O(log n)
