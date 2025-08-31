@@ -29,3 +29,6 @@ class Solution {
         return max_capacity;
     }
 }
+
+// Time Complexity = O(n)
+// Space Complexity = O(1)
