@@ -6,7 +6,7 @@ class Solution {
         double minuteHand = 6 * minutes;
 
         double angle = Math.abs(hourHand - minuteHand);
-        return Math.min(angle, 360 - angle);
+        return Math.min(angle, 360 - angle);   // assume for calculating 9:00 the angle is 270° and the reflex angle is 360 - 270 = 90°, so we always return small angle.
     }
 }
 
